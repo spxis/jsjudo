@@ -80,39 +80,50 @@ Questions inspired and borrowed from resources I collected:
 - What is an ID selector and how is it used?
 - How does a class selector differ from an ID selector?
 - What is a child selector?
-- What are psuedo classes and how are they used? Name three.
+- How does a browser determine how CSS selectors are applied to an element?
+- What are pseudo classes and how are they used? Name three.
 - What are pseudo elements? How are they defined? Name one.
+- How do you use the CSS content property? What pseudo-elements are used with this property?
 - What are 3 ways to apply CSS styles to a web page.
 - What is CSS grouping and how is it used?
 - How do floats work in CSS? How would you clear a float?
+- What is Quirks Mode and how is it relevant?
+- What is a CSS "reset" file? What is it used for?
 - Describe the CSS Box Model. What are the 4 that can be controlled?
 - Describe the CSS Flexbox layout.
-- What are the differences between inline and block elements?
+- How would you visually hide HTML content to only be read by a screen reader?
+- How would you check if a CSS feature or property was supported on a target browser?
+- What are CSS sprites? What are their advantages and how are they used?
 - What is the CSS Z-index property? How does it take effect?
-- How can you modify inline styles for any DOM element through JavaScript? Provide the syntax.
 - What are the pros and cons of External Style Sheets? Where should they be placed in HTML?
 - What are the pros and cons of Embedded CSS Style Sheets? Where should they be placed in HTML?
 - What is the HTML tag used to refer to an External Style Sheet?
+- Describe and name the two CSS box-sizing properties. What is the default property?
 - What are CSS Media Types? Name two.
 - What are CSS Media Queries? How are they used?
+- What techniques are used to optimize a page for printing?
 - What CSS properties are used to change element dimensions? What values can they accept?
 - What is the CSS property used for changing text color? What about text size?
 - How can you restore the default CSS property of a DOM element?
 - Name five major CSS Properties for any given element.
 - What is the correct order of the four CSS border properties?
-- What is the default CSS position property?
+- What is the default CSS position property value? Name two others.
 - What is a CSS shorthand property? Give an example.
 - What is the CSS property for manipulating a bulleted list?
 - What are CSS Counters and how are they used?
-- How do you use the CSS content property? What pseudo-elements are used with the Content property?
+- What are the differences between inline and block elements?
 - How are the visibility and display CSS properties used to hide elements? Describe the differences. 
 - Why are relative width fonts considered better than fixed width fonts?
 - What fonts are supported by all computing platforms?
 - Name a CSS Grid System and how it is used.
-- Name a CSS preprocessor system and how it is used.
+- Name a CSS preprocessor system and how it is used. What are the pros/cons?
+- Name one feature that was introduced in CSS2 or CSS2.1.
 - Name 3 features and properties of CSS3.
-- Name one new feature or property of CSS4.
+- Name one new feature or property of any proposed CSS4 specification.
 - How do you apply rounder corners to a DIV element?
+- Name several ways to modify CSS properties for an element in JavaScript?
+- What is the syntax for accessing CSS properties with hyphens in JavaScript?
+- How do you alter the class attribute of an HTML element in JavaScript?
 
 ## References
 - Test your CSS skills: http://www.w3schools.com/quiztest/quiztest.asp?qtest=CSS
