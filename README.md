@@ -80,10 +80,11 @@ Questions inspired and borrowed from resources I collected:
 - What is an ID selector and how is it used?
 - How does a class selector differ from an ID selector?
 - What is a child selector?
-- How does a browser determine how CSS selectors are applied to an element?
+- How does a browser determine how CSS selectors are applied to an element? Describe CSS specificity.
 - What are pseudo classes and how are they used? Name three.
 - What are pseudo elements? How are they defined? Name one.
 - How do you use the CSS content property? What pseudo-elements are used with this property?
+- What is the difference between the nth-child and nth-of-type?
 - What are 3 ways to apply CSS styles to a web page.
 - What is CSS grouping and how is it used?
 - How do floats work in CSS? How would you clear a float?
@@ -105,13 +106,16 @@ Questions inspired and borrowed from resources I collected:
 - What CSS properties are used to change element dimensions? What values can they accept?
 - What is the CSS property used for changing text color? What about text size?
 - How can you restore the default CSS property of a DOM element?
-- Name five major CSS Properties for any given element.
+- Name five major CSS properties for any given element.
+- Are CSS properties case-sensitive?
+- Name the four different unit types for the CSS font-size attribute.
 - What is the correct order of the four CSS border properties?
 - What is the default CSS position property value? Name two others.
 - What is a CSS shorthand property? Give an example.
 - What is the CSS property for manipulating a bulleted list?
 - What are CSS Counters and how are they used?
 - What are the differences between inline and block elements?
+- How do you apply CSS3 transitions to any element property? Name one transition.
 - How are the visibility and display CSS properties used to hide elements? Describe the differences. 
 - Why are relative width fonts considered better than fixed width fonts?
 - What fonts are supported by all computing platforms?
