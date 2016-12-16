@@ -32,18 +32,27 @@
 
 - What is Inheritance? Inheritance refers to an object being able to inherit methods and properties from a parent object (Function).
 - What is Encapsulation? Enclosing all the functionalities of an object within that object so that the object’s internal workings (its methods and properties) are hidden from the rest of the application. 
+- What is Polymorphism? Objects can share the same interface (how they are accessed and used) while their underlying implementation of the interface may differ.
 - What is the Object.prototype? The top of the prototype chain. The properties and methods that all objects inherit from. 
 - What is a Constructor? A function for initializing new objects. You use the new keyword to call the constructor. 
 - What is a Function property? A variable defined on a function.
 - What is a Prototype? It defines the shape of an object. 
 - What is a Prototype property? A property on an object that contains properties and methods, used with Inheritance. This property is available to all instances of that object [function].
 - What is a Prototype attribute? The parent of an object, where its properties were inherited from.
-- What is Object.create()? Helps achieve classical inheritance. This method creates a new object with the specified prototype object and properties.
+- What is Object.create()? Introduced in ECMAScript 5, founded by Douglas Crockford. Helps achieve classical inheritance. This method creates a new object with the specified prototype object and properties.
 - What is a Mixin? A function that copies functions from superclass prototypoe to the subclass prototype.
 - What is the difference between Function Declarations and Function Expression? Function Declarations are hoisted while Function Expressions are not.
 - What happens when a function is wrapped in parentheses? The result is evaluated as an expression, since the parentheses constitute a grouping operator and they can only contain an expression.
 - What is a closure? An inner function that has access to the outer (enclosing) function's variables (scope). 
 - What are the 3 scope chains for a closure? own scope, outer function variables, global variables.
+- What does the hasOwnProperty() method do? Tells you if the object has it's own property with the specified name, not an inherited property.
+- What are the methods used to Serialize and Deserialize Objects? JSON.stringify() and JSON.parse().
+- How do you delete a project of an Object? Use the delete operator, delete someObject.propertyToDelete.
+
+# Notes on Closures
+- Closures have access to the outer function's variable, even after the outer function returns;
+- Closures store references to outer function variables, not the actual value
+- Closures require care when outer function variables change, since variables are by reference, if they change, the values will change as well.
 
 # Angular Interview Questions
 
@@ -61,8 +70,16 @@
 - More on Hoisting: http://adripofjavascript.com/blog/drips/variable-and-function-hoisting
 - More on Named Function Expressions: https://kangax.github.io/nfe/
 
+# NodeJS Interview Questions
+
+- What is setImmediate()?
+- Node.js Interview Questions and Answers: https://blog.risingstack.com/node-js-interview-questions/
+- 7 Essential Node.js Interview Questions: https://www.toptal.com/nodejs/interview-questions
+- Top 25 Node.js Interview Questions & Answers: http://career.guru99.com/top-25-interview-questions-on-node-js/
+
 # Interview Preparation
 
+- JavaScript test: http://www.w3schools.com/quiztest/quiztest.asp?qtest=JavaScript
 - Interview Questions for front-end-Developer: http://www.thatjsdude.com/interview/
   - HTML related interview questions: http://www.thatjsdude.com/interview/html.html 
   - part -1: beginner: http://www.thatjsdude.com/interview/js1.html
@@ -129,7 +146,7 @@ Questions inspired and borrowed from resources I collected:
 - What is the syntax for accessing CSS properties with hyphens in JavaScript?
 - How do you alter the class attribute of an HTML element in JavaScript?
 
-## References
+## CSS References
 - Test your CSS skills: http://www.w3schools.com/quiztest/quiztest.asp?qtest=CSS
 - 25 Helpful CSS Interview Questions and Answers: http://www.skilledup.com/articles/25-css-interview-questions-answers
 - CSS interview questions and answers: http://jgthms.com/css-interview-questions-and-answers.html
